@@ -8,57 +8,28 @@ variables:
   buildConfiguration: 'Release'
 
 stages:
-
 - stage: Build
+  displayName: Build .NET Core API
   jobs:
   - job: Build
+    displayName: Build Job
     steps:
 
-    - task: UseDotNet@2
+    - script: dotnet --info
+      displayName: Check .NET SDK Installed
+
+    - script: dotnet restore
+      displayName: Restore Packages
+
+    - script: dotnet build --configuration $(buildConfiguration) --no-restore
+      displayName: Build Project
+
+    - script: dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
+      displayName: Publish Project
+
+    - task: PublishBuildArtifacts@1
+      displayName: Publish Artifact
       inputs:
-        version: '8.x'
-        packageType: 'sdk'
-
-    - task: DotNetCoreCLI@2
-      inputs:
-        command: restore
-        projects: '**/*.csproj'
-
-    - task: DotNetCoreCLI@2
-      inputs:
-        command: build
-        projects: '**/*.csproj'
-        arguments: '--configuration Release'
-
-    - task: DotNetCoreCLI@2
-      inputs:
-        command: publish
-        publishWebProjects: true
-        arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
-        zipAfterPublish: true
-
-    - publish: $(Build.ArtifactStagingDirectory)
-      artifact: drop
-
-- stage: Deploy
-  dependsOn: Build
-
-  jobs:
-  - deployment: DeployWebApi
-
-    environment: Production
-
-    strategy:
-      runOnce:
-        deploy:
-          steps:
-
-          - download: current
-            artifact: drop
-
-          - task: AzureWebApp@1
-            inputs:
-              azureSubscription: 'Azure-ServiceConnection'
-              appType: 'webApp'
-              appName: 'mydotnet8api'
-              package: '$(Pipeline.Workspace)/drop/**/*.zip'
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
