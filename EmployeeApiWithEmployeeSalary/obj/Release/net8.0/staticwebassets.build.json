@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nVcQObiAN7MdTa+33bxyzxg+Vc64GctidYj7a3z74Qw=",
+  "Source": "EmployeeApiWithEmployeeSalary",
+  "BasePath": "_content/EmployeeApiWithEmployeeSalary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

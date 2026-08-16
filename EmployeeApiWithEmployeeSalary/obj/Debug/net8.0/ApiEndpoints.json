@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "EmployeeApiWithEmployeeSalary.Controllers.EmployeeSalaryController",
+    "Method": "AddEmployeeAsync",
+    "RelativePath": "api/EmployeeSalary/addEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "EmployeeApiWithEmployeeSalary.EmployeeWithSalary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeApiWithEmployeeSalary.Controllers.EmployeeSalaryController",
+    "Method": "GetEmployeeByIdAsync",
+    "RelativePath": "api/EmployeeSalary/getEmployeetbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EmployeeApiWithEmployeeSalary.Employee, EmployeeApiWithEmployeeSalary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EmployeeApiWithEmployeeSalary.Controllers.EmployeeSalaryController",
+    "Method": "GetEmployeeBySalaryAsync",
+    "RelativePath": "api/EmployeeSalary/getEmployeetbysalary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EmployeeApiWithEmployeeSalary.Employee, EmployeeApiWithEmployeeSalary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EmployeeApiWithEmployeeSalary.Controllers.EmployeeSalaryController",
+    "Method": "UpdateEmployeeAsync",
+    "RelativePath": "api/EmployeeSalary/updateEmployee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "EmployeeApiWithEmployeeSalary.EmployeeWithSalary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeApiWithEmployeeSalary.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EmployeeApiWithEmployeeSalary.WeatherForecast, EmployeeApiWithEmployeeSalary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
