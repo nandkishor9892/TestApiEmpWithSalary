@@ -17,7 +17,7 @@ steps:
 - script: dotnet nuget locals all --clear
   displayName: Clear NuGet Cache
 
-- script: dotnet restore EmployeeApiWithEmployeeSalary.sln --configfile NuGet.Config
+- script: dotnet restore EmployeeApiWithEmployeeSalary.sln
   displayName: Restore Packages
 
 - script: dotnet build EmployeeApiWithEmployeeSalary.sln --configuration $(buildConfiguration) --no-restore
