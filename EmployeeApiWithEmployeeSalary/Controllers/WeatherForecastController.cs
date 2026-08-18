@@ -30,6 +30,22 @@ namespace EmployeeApiWithEmployeeSalary.Controllers
             .ToArray();
         }
 
+        [HttpGet("GetString")]
+        public IEnumerable<string> GetString()
+        {
+            try
+            {
+                string[] str = new string[] { "Hello", "World", "!" };
+                var response = str.ToList();
+
+                return response;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
 
     }
 }
