@@ -17,8 +17,18 @@ steps:
 - script: dotnet nuget locals all --clear
   displayName: Clear NuGet Cache
 
-- script: dotnet restore EmployeeApiWithEmployeeSalary.sln --verbosity detailed
+- script: dotnet restore EmployeeApiWithEmployeeSalary.sln --configfile NuGet.Config
   displayName: Restore Packages
 
 - script: dotnet build EmployeeApiWithEmployeeSalary.sln --configuration $(buildConfiguration) --no-restore
   displayName: Build Project
+
+- script: dotnet publish EmployeeApiWithEmployeeSalary/EmployeeApiWithEmployeeSalary.csproj --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
+  displayName: Publish Project
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish Artifact
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
