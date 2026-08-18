@@ -7,29 +7,18 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
-stages:
-- stage: Build
-  displayName: Build .NET Core API
-  jobs:
-  - job: Build
-    displayName: Build Job
-    steps:
+steps:
+- script: dotnet --info
+  displayName: Check DotNet SDK
 
-    - script: dotnet --info
-      displayName: Check .NET SDK Installed
+- script: dotnet nuget list source
+  displayName: Show NuGet Sources
 
-    - script: dotnet restore
-      displayName: Restore Packages
+- script: dotnet nuget locals all --clear
+  displayName: Clear NuGet Cache
 
-    - script: dotnet build --configuration $(buildConfiguration) --no-restore
-      displayName: Build Project
+- script: dotnet restore EmployeeApiWithEmployeeSalary.sln --verbosity detailed
+  displayName: Restore Packages
 
-    - script: dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
-      displayName: Publish Project
-
-    - task: PublishBuildArtifacts@1
-      displayName: Publish Artifact
-      inputs:
-        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        ArtifactName: 'drop'
-        publishLocation: 'Container'
+- script: dotnet build EmployeeApiWithEmployeeSalary.sln --configuration $(buildConfiguration) --no-restore
+  displayName: Build Project
