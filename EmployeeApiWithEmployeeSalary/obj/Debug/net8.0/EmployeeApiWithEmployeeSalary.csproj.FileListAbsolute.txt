@@ -138,3 +138,4 @@ D:\DotNetcore\EmployeeApiWithEmployeeSalary\EmployeeApiWithEmployeeSalary\bin\De
 D:\DotNetcore\EmployeeApiWithEmployeeSalary\EmployeeApiWithEmployeeSalary\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\DotNetcore\EmployeeApiWithEmployeeSalary\EmployeeApiWithEmployeeSalary\obj\Debug\net8.0\staticwebassets\msbuild.EmployeeApiWithEmployeeSalary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 D:\DotNetcore\EmployeeApiWithEmployeeSalary\EmployeeApiWithEmployeeSalary\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\DotNetcore\EmployeeApiWithEmployeeSalary\EmployeeApiWithEmployeeSalary\obj\Debug\net8.0\EmployeeApiWithEmployeeSalary.sourcelink.json

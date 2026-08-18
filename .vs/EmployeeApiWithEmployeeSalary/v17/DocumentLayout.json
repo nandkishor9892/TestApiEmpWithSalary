@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|solutionrelative:employeeapiwithemployeesalary\\controllers\\employeesalarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|d:\\dotnetcore\\employeeapiwithemployeesalary\\employeeapiwithemployeesalary\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|solutionrelative:employeeapiwithemployeesalary\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|d:\\dotnetcore\\employeeapiwithemployeesalary\\employeeapiwithemployeesalary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|solutionrelative:employeeapiwithemployeesalary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|solutionrelative:employeeapiwithemployeesalary\\migrations\\employeeandsalarydbcontexmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|d:\\dotnetcore\\employeeapiwithemployeesalary\\employeeapiwithemployeesalary\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|solutionrelative:employeeapiwithemployeesalary\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|d:\\dotnetcore\\employeeapiwithemployeesalary\\employeeapiwithemployeesalary\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{65628143-65C7-4F74-92ED-0572A716B359}|EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj|solutionrelative:employeeapiwithemployeesalary\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -66,7 +66,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmployeeSalary.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Repositories\\EmployeeSalary.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Repositories\\EmployeeSalary.cs",
@@ -78,16 +78,8 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeApiWithEmployeeSalary.csproj",
-              "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
-              "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
-              "ToolTip": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
-              "RelativeToolTip": "EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-15T06:00:35.685Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -97,14 +89,14 @@
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Controllers\\EmployeeSalaryController.cs",
               "ToolTip": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Controllers\\EmployeeSalaryController.cs",
               "RelativeToolTip": "EmployeeApiWithEmployeeSalary\\Controllers\\EmployeeSalaryController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAwwFsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAIwHgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T15:29:39.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Program.cs",
@@ -116,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\appsettings.json",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\appsettings.json",
@@ -128,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IEmployeeSalary.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Repositories\\IEmployeeSalary.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Repositories\\IEmployeeSalary.cs",
@@ -140,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EmployeeAndSalaryDbContex.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Data\\EmployeeAndSalaryDbContex.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Data\\EmployeeAndSalaryDbContex.cs",
@@ -152,7 +144,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T14:33:33.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeApiWithEmployeeSalary.csproj",
+              "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
+              "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
+              "ToolTip": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
+              "RelativeToolTip": "EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-15T06:00:35.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EmployeeWithSalary.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\EmployeeWithSalary.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\EmployeeWithSalary.cs",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Employee.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Employee.cs",
@@ -176,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EmployeeAndSalaryDbContexModelSnapshot.cs",
               "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Migrations\\EmployeeAndSalaryDbContexModelSnapshot.cs",
               "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Migrations\\EmployeeAndSalaryDbContexModelSnapshot.cs",
@@ -185,18 +201,6 @@
               "ViewState": "AgIAACoAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T05:12:13.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\DotNetcore\\EmployeeApiWithEmployeeSalary\\EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "EmployeeApiWithEmployeeSalary\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T14:33:33.779Z"
             },
             {
               "$type": "Document",
